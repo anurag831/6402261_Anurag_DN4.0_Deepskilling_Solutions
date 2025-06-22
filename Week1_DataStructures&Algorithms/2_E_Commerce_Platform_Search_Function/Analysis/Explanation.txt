@@ -11,4 +11,4 @@ The Big-O notation helps in comparing the time complexity or space complexity of
 
 • Average Case – The average case for a searching algorithm is when it has to compare half of the elements to find the required element.
 
-• Worst Case – The worst case for Linear search is when it has to check all the elements and for Binary Search it is when the element is found by reducing the rage to 0 which is its last iteration. It also occurs when the element is not present.
+• Worst Case – The worst case for Linear search is when The element being searched may be at the last position in the array or not at all. For Binary Search it occurs when the target element is the smallest element or the largest element of the sorted array. It also occurs when the element is not present.
