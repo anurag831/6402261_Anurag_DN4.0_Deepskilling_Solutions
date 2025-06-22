@@ -21,7 +21,7 @@ T(k) = O(n) + O(n+1) + O(n+2) + … + O (n + k – 1)
 This is an Arithmetic Progression, so the sum can be computed as following,
 T(k) = {2n + (k – 1) *1} *k/2
 Or, T(k) = n*k + k(k-1)/2
-Or, T(k) = O (nk + k2)
+Or, T(k) = O (nk + k^2)
 
 To avoid the excessive computation, we can go for two other approaches : 
 
