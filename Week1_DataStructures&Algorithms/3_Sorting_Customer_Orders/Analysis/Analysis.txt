@@ -1,0 +1,16 @@
+Analysis
+
+• Bubble Sort uses nested loops. There are two loops used one inside another. Its worst and average case time complexity is O(n^2) and its best-case time complexity is O(n) when the array is already sorted.
+
+• Quick Sort divides the array into sub-arrays, and also it performs partitioning. Its recurrence relation in best case and average case is
+	T(n) = 2T(n/2) + O(n)
+	Where O(n) is the complexity of partitioning
+	On solving the above equation, we get the time complexity of Quick Sort in best and average cases as O (n log n)
+
+In the worst case of quick sort, it divides the array very inefficiently, for example in two halves one including n-1 elements and the other having only 1 element, this occurs when the input array is already sorted. Then the recurrence relation becomes T(n) = T(n-1) + O(n) which when evaluated is found to be O(n2)
+
+• Quick Sort is generally quicker than bubble sort and that is clear from the time complexity analysis as O (n log n) < O(n2). 
+
+• Quick sort is very efficient even on large datasets but bubble sort on the other hand is very inefficient. Quick sort applies the Divide and Conquer algorithm which makes it much faster than bubble sort which is based on Brute force approach.
+
+• Therefore, quick sort is faster and more scalable than bubble sort because of which it is preferred over bubble sort.

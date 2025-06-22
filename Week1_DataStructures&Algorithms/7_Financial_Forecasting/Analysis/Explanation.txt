@@ -1,0 +1,5 @@
+Understanding Recursive Algorithms:
+
+• The scenario in which a function calls itself in its implementation, either directly or indirectly is called recursion and the function is called a recursive function.
+
+• Recursions can simplify certain problems like tower of Hanoi, finding Fibonacci series, calculating factorial of a number, by breaking down the problem into simpler sub-problems similar to the global problem and then executing the sub-problems, this simplifies the problem.

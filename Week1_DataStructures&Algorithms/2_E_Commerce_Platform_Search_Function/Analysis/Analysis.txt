@@ -1,0 +1,7 @@
+Analysis
+
+1. Linear Search has a linear time complexity. Its runtime increases with increase in input size. It can be represented as O(n). It works better with small datasets but does not perform well in case of large datasets.
+
+2. Binary Search has a logarithmic time complexity. It can be represented as O (log n). It may not work faster with small datasets but works much better with larger datasets, compared to linear search.
+ 
+For the searching purpose in an e-commerce platform, using Binary Search will be the better option as there may be a large number of products from which the desired product has to be searched. Therefore, Binary Search is suitable for our platform.

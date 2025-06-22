@@ -1,0 +1,13 @@
+Understanding Sorting Algorithms
+
+• Bubble Sort and Insertion Sort algorithms are based on comparing every element and swapping them to find the correct position of one element per pass
+
+• Merge Sort and Quick Sort algorithms are based on Divide and conquer algorithm where the total problem is divided into sub-problems and then combined to form the desired answer.
+
+• In Bubble Sort, in every pass we compare each neighboring element and swap them if needed. One element reaches its correct index at every pass so the focusing size of the array reduces by 1 after every pass. 
+
+• In Insertion Sort, similar to bubble sort we compare every element to each other but we gradually increase the focusing size of the array starting from size=1. In every pass we consider one key element and then traverse the array to find its correct position by swapping positions of elements. The focusing size of the array increases by 1 after every pass.
+
+• In Merge Sort we use the divide and conquer algorithm in which we use a recursive function which first divides the array into equal halves until single element arrays are formed and then they are merged and sorted one by one thus forming the desired sorted array at the end of merging. We require some extra sub-arrays to form the sorted full array. Elements from the sub-arrays are compared and accordingly added into the new array to make it sorted.
+
+• In Quick Sort also we use divide and conquer algorithm in which we use a recursive function which divides the array. However, here we don’t use extra sub-arrays, instead we use a partitioning function. The partitioning function takes a random pivot element (either starting or ending element or any element from the array), and then sorts the array around that pivot thus finding its correct position. After each such pass the array is divided into sub-arrays consisting of the left elements of the pivot and the elements on the right side of the pivot.

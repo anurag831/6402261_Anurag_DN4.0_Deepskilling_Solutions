@@ -1,0 +1,29 @@
+Analysis
+
+1. Initial size of the array = n, number of years to predict = k
+
+2. Every call has 
+	a. One loop to calculate the growth = O (present size of array)
+	b. Copies the array into a new array = O (present size of the array)
+	c. Adds one new element = O (1)
+	d. Calls itself again
+
+3. If we look at the size of the array at each call we get
+	a. At first call size of array is n
+	b. At second call it is n+1
+	c. At third it is n+2
+	d. At fourth it is n+3 and so on
+
+4. Therefore, at kth call which is the final call, the size of the array would be n + k – 1
+
+5. So, if we analyse the time complexity we get,
+T(k) = O(n) + O(n+1) + O(n+2) + … + O (n + k – 1)
+This is an Arithmetic Progression, so the sum can be computed as following,
+T(k) = {2n + (k – 1) *1} *k/2
+Or, T(k) = n*k + k(k-1)/2
+Or, T(k) = O (nk + k2)
+
+To avoid the excessive computation, we can go for two other approaches : 
+
+1. Using a list : Using a list removes the burden of copying the list again and again, by making the size of the array dynamic.
+2. Using Iterative approach : Theoretically using a list will have same impact on both iterative and recursive approach but using the iterative approach is practically an optimization because everything is under a single function frame, no passing of parameters and returning values, also there is no function call stack.

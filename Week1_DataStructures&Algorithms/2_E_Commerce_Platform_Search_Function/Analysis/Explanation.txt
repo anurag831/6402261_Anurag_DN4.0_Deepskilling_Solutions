@@ -1,0 +1,14 @@
+Understanding Asymptotic Notation: 
+
+• Big – O notation provides a way to analyse the time or space taken by an algorithm. It describes the asymptotic behaviour or the order of growth of time or space taken by the algorithm. It provides an upper limit on the time or space taken.
+If f(n) is a function and g(n) is another function then we can say  
+	o f(n) is O(g(n)) if there exists constants c > 0 and n1 > 0 such that
+	o f(n) <= c*g(n) for all n >= n1
+
+The Big-O notation helps in comparing the time complexity or space complexity of different algorithms. It can be used to measure the efficiency of an algorithm. It provides a way to describe how the runtime or space requirements of an algorithm grow with increase in input size.
+
+• Best Case – The best case for a searching algorithm is when it finds the required element in its first comparison. For linear search it occurs when the required element is at the first index and for binary search it occurs when the required element is at the middle of the array.
+
+• Average Case – The average case for a searching algorithm is when it has to compare half of the elements to find the required element.
+
+• Worst Case – The worst case for Linear search is when it has to check all the elements and for Binary Search it is when the element is found by reducing the rage to 0 which is its last iteration. It also occurs when the element is not present.
