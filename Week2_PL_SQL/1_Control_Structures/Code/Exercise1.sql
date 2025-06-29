@@ -16,7 +16,7 @@ BEGIN
         JOIN Loans l ON c.CustomerID = l.CustomerID
     ) LOOP
         age := TRUNC(MONTHS_BETWEEN(SYSDATE, i.DOB)/12);
-        IF age > 60 THEN
+        IF age > 60 AND i.InterestRate > 1 THEN
             UPDATE Loans
             SET InterestRate = InterestRate - 1
             WHERE LoanID = i.LoanID;
