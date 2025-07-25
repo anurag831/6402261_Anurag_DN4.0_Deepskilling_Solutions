@@ -1,0 +1,19 @@
+div{
+    color: green;
+}
+
+td, th{
+    border: 1px solid black;
+}
+
+.mydiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    border: 1px solid black;
+    padding: 10px;
+}

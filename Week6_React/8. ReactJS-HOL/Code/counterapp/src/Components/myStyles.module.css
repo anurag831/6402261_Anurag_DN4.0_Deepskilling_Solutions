@@ -1,0 +1,19 @@
+button {
+    background-color: rgb(54, 236, 54);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.CountPeople {
+    display: flex;
+    gap: 20rem;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.group {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
