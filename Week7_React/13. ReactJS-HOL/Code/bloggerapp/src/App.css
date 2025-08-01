@@ -1,0 +1,97 @@
+.App {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.components-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.component-wrapper {
+    flex: 1;
+    padding: 20px;
+    border-right: 7px solid #159c00;
+    box-sizing: border-box;
+    min-height: 400px;
+}
+
+.component-wrapper:last-child {
+    border-right: none;
+}
+
+
+.component-wrapper h2 {
+    color: #333;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+}
+
+.component-wrapper ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.component-wrapper li {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+.component-wrapper strong {
+    color: #333;
+}
+
+
+.blog-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.blog-author {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 3px;
+}
+
+.blog-date {
+    font-size: 0.85em;
+    color: #888;
+}
+
+
+.book-name {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.book-price {
+    font-size: 0.85em;
+    color: #888;
+}
+
+
+.course-name {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.course-date {
+    font-size: 0.85em;
+    color: #888;
+}

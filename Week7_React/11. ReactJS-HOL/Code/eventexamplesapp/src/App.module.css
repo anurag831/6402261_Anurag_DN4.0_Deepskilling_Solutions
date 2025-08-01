@@ -1,0 +1,43 @@
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.buttons{
+    button{
+        width: fit-content;
+    }
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form h1{
+    color: green;
+    font: bold 30px Arial, sans-serif;
+    margin-bottom: 30px;
+}
+
+.form .formContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form .formContainer .inputWrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.form .formContainer .inputWrapper label{
+    width: 100px;
+}
+
+.form .submit button{
+    width: fit-content;
+    margin-left: 100px;
+}
